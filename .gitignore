@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+
+data/combined_ML_data.csv
+*.pt
+*.pkl
+.ipynb_checkpoints/
