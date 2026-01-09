@@ -10,10 +10,18 @@ Predicts taxi trip duration using Machine Learning models.
 - Extra Trees
 - MLP
 
-## Best Result
-- XGBoost
-- MAE ≈ 1.43 minutes
-- R² ≈ 0.91
+## 📊 Results
+
+| Model | MAE | R² |
+|------|-----|----|
+| Linear Regression | 3.81 | 0.72 |
+| Random Forest | 1.47 | 0.90 |
+| XGBoost | **1.43** | **0.91** |
+
+📌 XGBoost achieved the best performance.
+
+![Results](results/terminal_output.png)
+
 
 ## Dataset
 Dataset not included due to size limits.
